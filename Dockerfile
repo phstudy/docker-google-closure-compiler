@@ -15,5 +15,4 @@ RUN echo "configure /usr/local/bin" \
     && chmod +x /opt/* \
     && chmod +r /opt/*
 
-ENTRYPOINT ["closure-compiler"]
-CMD ["-"]
+CMD ["closure-compiler", "-"]
